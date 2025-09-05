@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | EventSphere</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600 family=Poppins:wght@600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="images/event-sphere-logo.png" alt="EventSphere Logo">
+            <span>EventSphere</span>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upcoming-events.html">Upcoming Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" role="banner" aria-label="Discover Upcoming Events">
+      <div class="hero-overlay"></div>
+        <div class="hero-inner glass">
+          <h1>Discover Upcoming Events</h1>
+          <p>Explore technology, music, and community gatherings near you.</p>
+          <a href="#events" class="btn btn-primary">Browse Events</a>
+        </div>
+    </section>
+
+    <section class="search-section" aria-label="Search events">
+    <form class="search" id="search-form" role="search">
+      <input 
+        id="search-input"
+        type="search"
+        placeholder="Search by event name, venue, or keyword…"
+        aria-label="Search events"/>
+      <button type="submit" class="btn btn-primary">Search</button>
+      <button type="button" class="btn btn-secondary" id="clear-search" aria-label="Clear search">Clear</button>
+    </form>
+    </section>
+
+    <section class="events">
+      <h2 id="events-title">Upcoming Events</h2>
+      <div id="events" class="event-grid">
+    
+        <div class="event-card">
+          <a href="event.html?id=techfest-2025">
+            <img src="images/tech-fest.png" alt="TechFest 2025">
+            <h3>TechFest 2025</h3>
+            <p>15th September 2025</p>
+            <p>Expo Center, Lahore</p>
+            <button class="view-btn">Learn More</button>
+          </a>
+        </div>
+
+        <div class="event-card">
+          <a href="event.html?id=music-vibes-night">
+            <img src="images/music-night.png" alt="Music Vibes Night">
+            <h3>Music Vibes Night</h3>
+            <p>25th September 2025</p>
+            <p>Alhamra Arts Council, Lahore</p>
+            <button class="view-btn">Learn More</button>
+          </a>
+        </div>
+
+        <div class="event-card">
+          <a href="event.html?id=startup-meetup">
+            <img src="images/startup-meetup.png" alt="Startup Meetup 2025">
+            <h3>Startup Meetup 2025</h3>
+            <p>1st October 2025</p>
+            <p>NIC Lahore (National Incubation Center)</p>
+            <button class="view-btn">Learn More</button>
+         </a>
+        </div>
+
+        <div class="event-card">
+          <a href="event.html?id=food-carnival">
+            <img src="images/food-carnival.png" alt="Global Food Carnival">
+            <h3>Global Food Carnival</h3>
+            <p>10th October 2025</p>
+            <p>Jilani Park (Racecourse), Lahore</p>
+            <button class="view-btn">Learn More</button>
+          </a>
+        </div>
+
+        <div class="event-card">
+          <a href="event.html?id=art-exhibition">
+            <img src="images/art-exhibition.png" alt="Modern Art Exhibition">
+            <h3>Modern Art Exhibition</h3>
+            <p>18th October 2025</p>
+            <p>Alhamra Art Gallery, Lahore</p>
+            <button class="view-btn">Learn More</button>
+          </a>
+        </div>
+
+        <div class="event-card">
+          <a href="event.html?id=ai-hackathon">
+            <img src="images/ai-hackathon.png" alt="AI Hackathon 2025">
+            <h3>AI Hackathon 2025</h3>
+            <p>Online — 25th October 2025</p>
+            <p>Hosted by MIT Media Lab</p>
+            <button class="view-btn">Learn More</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upcoming-events.html">Upcoming Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-socials">
+          <h3>Follow Us</h3>
+            <div class="socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-about">
+            <h3>About Us</h3>
+            <p>EventSphere is your gateway to discovering  and experiencing events around the world. From international tech conferences and business expos to cultural festivals and music nights, we bring everything together in one easy-to-use platform. Our mission is to make event discovery simple, engaging, and accessible to everyone.</p>
+        </div>
+      </div>
+        <div class="footer-bottom">
+          <p>© 2025 EventSphere. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
